@@ -4,6 +4,11 @@ body,html{
 	width: 100%;
 	margin: auto;
 	padding: 0;
+	font-size: 100%;
+}
+.heading{
+	background: rgba(34,34,34,0.8);
+
 }
 /*body*/
 body{
@@ -98,7 +103,7 @@ nav #navbarSupportedContent ul li a:hover{
 }
 #about_us p{
 	font-family: lato;
-	font-size: 1.8em;
+	padding:30px;
 }
 #about_us h1{
 	font-weight: 700;
@@ -328,7 +333,7 @@ nav #navbarSupportedContent ul li a:hover{
 #schedule div.row{
 	padding:40px ;
 	font-family: roboto;
-	font-size: 1.8em;
+	font-size: 1em;
 	background: #fff;
 	text-align: center;
 
@@ -345,14 +350,15 @@ nav #navbarSupportedContent ul li a:hover{
 #schedule div.row div{
 	background: rgb(224, 224, 224);
 	color:#ff8800;
-	font-size: 2em;
 	font-family: sunflower;
 	margin: auto;
 	height:22vh;
 
 }
 /*SCHEDULE-END*/
-
+hr{
+	width:50%;
+}
 /*Gallery*/
 #gallery div.row{
 	width: 100%;
@@ -382,11 +388,11 @@ nav #navbarSupportedContent ul li a:hover{
 
 #Contact-Us div.row{
 	font-family: sunflower;
-	font-size: 20px;
+	font-size: 16px;
 	letter-spacing: 1px;
 	padding: 30px;
 	/*background: #ededed;*/
-	background: #222222;
+	background: #202931;
 	color: white;
 	text-align: center;
 	width: 100%;
@@ -410,7 +416,7 @@ nav #navbarSupportedContent ul li a:hover{
 }
 
 #Contact-Us div.row div a{
-	color: #222222;
+	color: #202931;
 	transition:0.3s;
 }
 
