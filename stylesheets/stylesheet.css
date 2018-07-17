@@ -70,10 +70,10 @@ nav{
 	font-family: josefin sans;
 }
 nav #navbarSupportedContent ul li a{
-	color:#bcbcbc;
+	color:#fff;
 }
 nav #navbarSupportedContent ul li a:hover{
-	color:#fff;
+	color:#000;
 	text-shadow:0 0 1px #fff;
 }
 .navbar-inverse .navbar-toggler-icon {
