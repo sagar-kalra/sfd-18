@@ -329,33 +329,33 @@ nav #navbarSupportedContent ul li a:hover{
 }
 /*Speakers-END*/
 
-/*SCHEDULE*/
+/*!*SCHEDULE*!*/
 #schedule div.row{
-	padding:40px ;
-	font-family: roboto;
-	font-size: 1em;
+	padding:0px ;
+	/*font-family: roboto;*/
+	/*font-size: 1em;*/
 	background: #fff;
 	text-align: center;
 
 }
 #schedule div{
-	padding:20px;
+	/*padding:20px;*/
 	width: 100%;
-	margin:auto;
+	/*margin:auto;*/
 }
-#schedule div hr{
-	width:50%;
-	height: 20px;
-}
-#schedule div.row div{
-	background: rgb(224, 224, 224);
-	color:#ff8800;
-	font-family: sunflower;
-	margin: auto;
-	height:22vh;
+/*#schedule div hr{*/
+	/*width:50%;*/
+	/*height: 20px;*/
+/*}*/
+/*#schedule div.row div{*/
+	/*background: rgb(224, 224, 224);*/
+	/*color:#ff8800;*/
+	/*font-family: sunflower;*/
+	/*margin: auto;*/
+	/*height:22vh;*/
 
-}
-/*SCHEDULE-END*/
+/*}*/
+/*!*SCHEDULE-END*!*/
 hr{
 	width:50%;
 }
