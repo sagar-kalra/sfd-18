@@ -447,7 +447,7 @@ hr{
 	left:8px;
 	text-shadow:2px 0 #00ffea;
 	animation:effect 3s infinite linear;
-	content:'COMING SOON.';
+	content:'15th & 16th September';
 	position: absolute;
 	top:0;
 	right: 0;
@@ -459,7 +459,7 @@ hr{
 	left:8px;
 	text-shadow:-2px 0 #00ffea;
 	animation:effect 2s infinite linear;
-	content:'COMING SOON...';
+	content:'15th & 16th September';
 	position: absolute;
 	font-weight: 700;
 	top:0;
