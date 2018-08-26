@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url('../fonts/AvenirLTStd-Medium.otf')format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:"Antipasto";
+  src: url('../fonts/Antipasto-RegularTrial.ttf')format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * { box-sizing: border-box; }
 
 body,html{
@@ -34,7 +47,7 @@ header h1{
 	font-weight: bold;
 	padding: 20px;
 	letter-spacing: 10px;
-	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);	
+	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
 	-webkit-background-clip: text;
 	color:transparent;
 }
@@ -62,6 +75,29 @@ h5:after {
     margin-right: -50%;
 }
 /*HEADER-END*/
+
+/*Horizontal Line*/
+.hr-line{
+  background:white;
+  height:10px;
+  width:10%;
+}
+.head-hr{
+  width:10%;
+  margin:20px auto;
+  background:#4e342e;
+  height:2px;
+}
+@media (max-width:768px){
+  .hr-line{
+    width: 40px;
+    height: 3px;
+  }
+  .head-hr{
+    width: 35%;
+  }
+}
+/*Horizontal Line ends*/
 
 /*NAVBAR*/
 nav{
@@ -106,8 +142,9 @@ nav #navbarSupportedContent ul li a:hover{
 	margin: auto;
 }
 #about_us p{
-	font-family: lato;
+	font-family: "Avenir LT Std";
 	padding:30px;
+  color: #4e342e;
 }
 #about_us h1{
 	font-weight: 700;
@@ -160,11 +197,27 @@ nav #navbarSupportedContent ul li a:hover{
 }
 /*PARTNERS-END*/
 
+/*Proposal*/
+.col-md-10 h1{
+  color: #4e342e;
+  font-family: 'Avenir LT Std';
+}
+@media (max-width:768px){
+  .col-md-10 h1{
+    font-size: 50px !important;
+  }
+}
+/*Proposal-end*/
+
 .schedule{
 	width:90vw;
 	height: 68vh;
 	display:flex;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+#day1,#day2 .card-title,.card-text{
+  font-family:"Avenir LT Std";
+  color: #4e342e;
 }
 .daysched{
 	line-height: 100%;
@@ -284,12 +337,12 @@ nav #navbarSupportedContent ul li a:hover{
     }
 
 }
- 
+
 @media (max-width: 991px) {
     .mobile-only {
         display:block !important;
     }
- 
+
     .desktop-only {
         display:none !important;
     }
@@ -364,16 +417,45 @@ hr{
 	width:50%;
 }
 /*Gallery*/
+
 #gallery div.row{
 	width: 100%;
 	margin: auto;
 }
-
 #gallery div.row div{
 	margin:auto;
 }
-
-
+.carousel-inner img {
+	width: 70%;
+}
+.carousel-control-prev-icon:after{
+	content: '<';
+	color: white;
+	font-family:"Hurme Geometric Sans 4";
+	font-size: 60px;
+}
+.carousel-control-next-icon:after{
+	content: '>';
+	color: white;
+	font-family:"Hurme Geometric Sans 4";
+	font-size: 60px;
+}
+@media (max-width: 992px) {
+  .carousel-control-prev-icon:after,.carousel-control-next-icon:after{
+    font-size: 40px;
+  }
+  .carousel-inner img {
+  	width: 100%;
+  }
+}
+@media (max-width : 768px) {
+  .carousel-control-prev-icon:after,.carousel-control-next-icon:after{
+    font-size: 20px;
+  }
+  .carousel-inner img {
+  	width: 100%;
+  }
+}
 /*Gallery-End*/
 
 /*Map*/
@@ -387,6 +469,24 @@ hr{
 }
 
 /*Map-End*/
+
+/*Partners*/
+
+#sponsor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#sponsor .wow{
+  margin: 30px !important;
+}
+@media (max-width:768px) {
+  #sponsor{
+    justify-content: center;
+  }
+}
+
+/*Partners-end*/
 
 /*CONTACT US*/
 
@@ -414,9 +514,9 @@ hr{
 
 #Contact-Us div.row div:hover{
 	background: white;
-	color: black; 
+	color: black;
 	border-bottom: 0px;
-	border-top: 2px solid #19ff05; 
+	border-top: 2px solid #19ff05;
 }
 
 #Contact-Us div.row div a{
@@ -535,29 +635,3 @@ hr{
 	}
 }
 /*GLITCH-END*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
