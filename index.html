@@ -64,7 +64,7 @@
 		    <a class="nav-link" onclick="$('#map').animatescroll({scrollSpeed:2000})">MAP <i class="far fa-map"></i></a>
 		  </li>
 		  <li class="nav-item">
-		    <a class="nav-link" onclick="$('#partners').animatescroll({scrollSpeed:2000})">PREVIOUS PARTNERS <i class="fas fa-hands-helping"></i></a>
+		    <a class="nav-link" onclick="$('#partners').animatescroll({scrollSpeed:2000})">OUR PARTNERS <i class="fas fa-hands-helping"></i></a>
 		  </li>
 		  <li class="nav-item">
 		    <a class="nav-link" onclick="$('#Contact-Us').animatescroll({scrollSpeed:2000})">CONTACT US <i class="fa fa-at"></i></a>
@@ -198,18 +198,14 @@
 			</div>
 		</div>
 	<div id="partners">
-		<div class="heading" style="padding: 120px 60px;	font-size: 6vw;	text-align: center;	color: #fff"><h1 class="about_us"  style="padding:60px;	font-size: 6vw;	text-align: center;	color: #fff; font-family: 'Antipasto'; margin:0 auto; padding-bottom:10px; text-shadow:1px 1px 20px #000;">Previous Partners</h1><hr class = "hr-line"></div>
+		<div class="heading" style="padding: 120px 60px;	font-size: 6vw;	text-align: center;	color: #fff"><h1 class="about_us"  style="padding:60px;	font-size: 6vw;	text-align: center;	color: #fff; font-family: 'Antipasto'; margin:0 auto; padding-bottom:10px; text-shadow:1px 1px 20px #000;">Our Partners</h1><hr class = "hr-line"></div>
 		<div class="row" id="sponsor">
-			<img class="wow slideInLeft" src="images/digitalocean.png" title="Digital Ocean" />
-			<img class="wow zoomIn" src="images/github.png" title="GitHub" />
-			<img class="wow zoomIn" src="images/UnixStickers.png" title="Unixstickers" style="width:280px; height:140px;" />
-			<img class="wow slideInRight" src="images/mozilla_logo.jpg" title="Mozilla" />
-			<img class="wow slideInLeft" src="images/phunt.png" title="Product Hunt" />
-			<img class="wow zoomIn" src="images/tcil.png" title="TCIL IT" style="width:198px; height:130px;" />
-			<img class="wow zoomIn" src="images/alpha.jpg" title="Alpha IT World" />
-			<img class="wow slideInRight" src="images/hamara.jpeg" title="Hamara Ubuntu" />
-			<img class="wow slideInLeft" src="images/technocampus.png" title="Technocampus" style="width:300px; height:75px;" />
-			<img class="wow slideInRight" src="images/gategurus.jpg" title="Gategurus" style="width:300px; height:75px;" />
+			<img id = 1 class="partner-img col-lg-4 col-md-6 col-xs-12 col-sm-6" src="images/msi.png" title="MSI" />
+			<img class="partner-img col-lg-4 col-md-6 col-xs-12 col-sm-6" id = 2 src="images/dubeat.png" title="DU Beat" />
+			<img class="partner-img col-lg-4 col-md-6 col-xs-12 col-sm-6" id = 3 src="images/gitlab.png" title="Gitlab" />
+			<img class="partner-img col-lg-4 col-md-6 col-xs-12 col-sm-6" id = 4 src="images/bullseye.png" title="Bulls Eye"/>
+			<img class="partner-img col-lg-4 col-md-6 col-xs-12 col-sm-6" id = 5 src="images/leetcode.png" title="Leet Code"/>
+			<img class="partner-img col-lg-4 col-md-6 col-xs-12 col-sm-6" id = 6 src="images/digitalocean.png" title="Digital Ocean"/>
 		</div>
 	</div>
 	<div id="Contact-Us">
@@ -233,5 +229,17 @@
 	</script>
 	<script type="text/javascript" src="scripts/animatescroll.js"></script>
 	<script type="text/javascript" src="scripts/home.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+    $('.partner-img').hover(function() {
+    	var dataId = $(this).attr('id');
+        $("#" + dataId).addClass('transition');
+    
+    }, function() {
+    	var dataId = $(this).attr('id');
+        $("#" + dataId).removeClass('transition');
+    });
+});
+	</script>
 </body>
 </html>
