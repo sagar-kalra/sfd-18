@@ -489,10 +489,10 @@ hr{
 #sponsor{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
-#sponsor .wow{
-  margin: 30px !important;
+#sponsor .partner-image{
+  margin: 60px !important;
 }
 @media (max-width:768px) {
   #sponsor{
