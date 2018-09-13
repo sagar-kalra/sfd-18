@@ -33,9 +33,11 @@
 	background-image: url(../images/rsz_ls_chhabra.jpg);
 }
 .ch-img-5 {
+	background-size: 226px 226px;
 	background-image: url(../images/Jigyasa_grover.jpg);
 }
 .ch-img-6 {
+	background-size: 220px 220px;
 	background-image: url(../images/rsz_2puneet_jain.jpg);
 }
 .ch-img-7 {
@@ -43,13 +45,14 @@
 }
 
 .ch-img-9 {
+	background-size: 226px 226px;
 	background-image: url(../images/rsz_2ashish_jangra.jpg);
 }
 .ch-img-10 {
 	background-image: url(../images/rsz_1sanyam_khurana.jpg);
 }
-.row img{
-	height:25px !important;
+.ch-info img {
+	height: 25px !important;
 }
 .ch-info {
 	position: absolute;
