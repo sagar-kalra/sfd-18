@@ -396,6 +396,19 @@ nav #navbarSupportedContent ul li a:hover{
 	text-align: center;
 
 }
+#day .tab-content{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
+}
+#day .tab-content .col-sm-4,.col-sm-8{
+	background-color: #F9B93D;
+	padding-top: 15px;
+}
+#day .row{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F9B93D;
+}
 #schedule div{
 	/*padding:20px;*/
 	width: 100%;
