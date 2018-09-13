@@ -24,9 +24,33 @@
 }
 
 .ch-img-3 { 
-	background-image: url(../images/3.jpg);
+	background-image: url(../images/Janu_Verma.jpg);
+}
+.ch-img-8 {
+	background-image: url(../images/rsz_1ashish-bansal.jpg);
+}
+.ch-img-4 {
+	background-image: url(../images/rsz_ls_chhabra.jpg);
+}
+.ch-img-5 {
+	background-image: url(../images/Jigyasa_grover.jpg);
+}
+.ch-img-6 {
+	background-image: url(../images/rsz_2puneet_jain.jpg);
+}
+.ch-img-7 {
+	background-image: url(../images/rsz_2punit_chawla.jpg);
 }
 
+.ch-img-9 {
+	background-image: url(../images/rsz_2ashish_jangra.jpg);
+}
+.ch-img-10 {
+	background-image: url(../images/rsz_1sanyam_khurana.jpg);
+}
+.row img{
+	height:25px !important;
+}
 .ch-info {
 	position: absolute;
 	background: rgba(63,147,147, 0.8);
